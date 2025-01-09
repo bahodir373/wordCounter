@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Counter Tool - Count Words Quickly & Easily</title>
+  <meta name="description" content="Use our free online Word Counter tool to quickly calculate the number of words in your text. Simple, fast, and accurate!">
+  <meta name="keywords" content="word counter, text counter, online word count tool, word count calculator">
+  <meta name="author" content="Bahodir Husainov">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Word Counter Tool</h1>
+    <form id="wordCountForm" class="mt-4">
+      <div class="mb-3">
+        <label for="textInput" class="form-label">Enter Text Below:</label>
+        <textarea class="form-control" id="textInput" rows="10" placeholder="Enter your text here..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Count Words</button>
+    </form>
+    <div id="result" class="result-box text-center d-none">
+      <h3>Number of words: <span id="wordCount">0</span></h3>
+    </div>
+		<footer class="text-center mt-5">
+      <a href="https://t.me/BahodirsBlog" class="btn btn-primary" target="_blank">Join My Telegram Channel</a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
